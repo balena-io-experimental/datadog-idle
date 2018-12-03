@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+  datadog:
+    build: ./datadog
+    restart: 'no'
+    privileged: true
+    network_mode: "host"
+    labels:
+      io.resin.features.balena-socket: '1'
+  idling:
+    build: ./idling
+    network_mode: "host"

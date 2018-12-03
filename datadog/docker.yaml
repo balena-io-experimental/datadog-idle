@@ -1,0 +1,4 @@
+init_config:
+instances:
+    - url: "unix://var/run/balena.sock"
+      new_tag_names: true

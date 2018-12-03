@@ -1,0 +1,3 @@
+FROM resin/%%RESIN_MACHINE_NAME%%-alpine
+
+CMD while : ; do echo Idling...; sleep 5; done
