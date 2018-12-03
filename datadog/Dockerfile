@@ -1,4 +1,4 @@
-FROM datadog/agent:6.6.0
+FROM datadog/agent:latest
 
 RUN    mkdir /host \
    && ln -s /proc /host/proc \
